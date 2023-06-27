@@ -58,6 +58,11 @@ header, .intro {
 	background-color: #3882f6;
     font-weight: bold;
 }
+.button:hover {
+	color: #3882f6;
+	background-color: #e5e7eb;
+	cursor: pointer;
+}
 /*styles for third section*/
 
 .photos img{
@@ -86,6 +91,10 @@ header, .intro {
 	padding: 4rem 22rem 2rem 21rem;
 	justify-content: center;
 	color: #1f2937;
+    transition: opacity 2s ease-in-out;
+}
+.inspire:hover {
+	opacity: 0.5;
 }
 .inspire p {
 	text-align: center;
@@ -128,7 +137,10 @@ header, .intro {
 	border-radius: 0.5rem;
 	font-weight: 700;
 }
-
+.signup-btn:hover {
+	opacity: 0.5;
+	cursor: pointer;
+}
 /*styling the footer section*/
 
 .footer {
